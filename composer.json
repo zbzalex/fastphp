@@ -1,0 +1,19 @@
+{
+    "name": "zbzalex/fastphp",
+    "type": "library",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "fastphp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.0.0"
+    }
+}
